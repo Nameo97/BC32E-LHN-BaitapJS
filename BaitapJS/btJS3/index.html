@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="d-flex justify-content-center">
+  <div class="card">
+    <div class="card-header bg-danger text-light font-weight-bold text-center" style="font-weight: 600;">QUY ĐỔI TIỀN</div>
+    <div class="card-body">
+      <div class="from-group" id="giaTienDo">
+        <p>Giá USD : 23.500 VND</p>
+      </div>
+     
+      <div class="from-group" >
+        <p style="font-weight: 600;">Nhập vào số tiền USD cần quy đổi</p>
+        <input class="from-control" id="soTienQuyDoi">
+      </div>
+    </div>
+    <div class="card-footer text-center">
+        <br/>
+      <button id="btntinhTienQuyDoi" class="btn btn-danger">QUY ĐỔI</button>
+      <div class="text-center">
+          <p style="font-weight: 600; font-size: 20px;">Số tiền sau khi quy đổi ra VND là :</p>
+          <H3 id="tienSauKhiDoi">500.000 VND</H3>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
